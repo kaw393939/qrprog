@@ -4,12 +4,14 @@ For this assignment you will be combining Docker with Python to create an image 
 contains a URL. The QR code can be used with the camera on your phone to allow a user to click on it to send the user to
 the target website. You must make your program generate a QR code that takes someone to your GitHub account homepage.
 You need upload the QR code to Canvas and put a link to your own repository in Canvas. This assignment is not
-automatically graded by GitHub Classroom.
+automatically graded by GitHub Classroom. You want to make it possible to change the QR code by using environment
+variables that can be overriden in the docker-compose.yml file.
 
 ## Video
 
 ## Readings
 
+* [Entrypoint vs. CMD vs. RUN ](https://codewithyury.com/docker-run-vs-cmd-vs-entrypoint/)
 * [Make QR with Python](https://towardsdatascience.com/generate-qrcode-with-python-in-5-lines-42eda283f325)
 * [Make Dockerfile](https://thenewstack.io/docker-basics-how-to-use-dockerfiles/)
 * [Docker Run Mount Local Windows Important Info](https://medium.com/@kale.miller96/how-to-mount-your-current-working-directory-to-your-docker-container-in-windows-74e47fa104d7)
